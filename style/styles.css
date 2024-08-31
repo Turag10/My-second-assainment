@@ -353,10 +353,148 @@ body {
 .calculate-button:hover {
     background-color: #e64a19; /* Button hover color */
 }
+body {
+    background-color: #121212; /* Background color for the entire page */
+    color: #fff; /* White text for contrast */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+.team-section {
+    padding: 60px 20px;
+    background-color: #1c1c1c; /* Dark background for the section */
+    color: #fff; /* White text color */
+}
+
+.team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-header p {
+    font-size: 1.2em;
+    color: #c0c0c0;
+    margin-bottom: 40px;
+}
 
 
 
-/* Responsive Styles */
+.team-member {
+    background-color: #2e2e2e; /* Slightly lighter background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    color: #c0c0c0;
+    font-size: 1.1em;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Base font for readability */
+    background-color:#121212; /* Light background color for the page */
+    color: #fff; /* Text color */
+}
+
+.footer {
+    background-color: #1c1c1c; /* Dark background color for the footer */
+    color: #fff; /* White text color */
+    padding: 40px 20px; /* Spacing around the footer */
+    text-align: left; /* Align text to the left */
+}
+
+.footer-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between columns */
+    flex-wrap: wrap; /* Wrap the content */
+    gap: 30px; /* Gap between flex items */
+}
+
+.footer-brand h2 {
+    font-size: 2em; /* Font size for the brand title */
+    color: #ff5722; /* Orange color for the brand title */
+    margin-bottom: 10px; /* Margin below the title */
+}
+
+.footer-brand p {
+    color: #ccc; /* Light grey color for the text */
+    font-size: 0.9em; /* Font size for the description */
+    line-height: 1.6; /* Line height for readability */
+}
+
+.footer-links {
+    width: 200px; /* Fixed width for each column */
+}
+
+.footer-links h3 {
+    font-size: 1.2em; /* Font size for the heading */
+    margin-bottom: 15px; /* Space below the heading */
+    color: #fff; /* White color for the heading */
+}
+
+.footer-links ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links ul li {
+    margin-bottom: 10px; /* Space below each list item */
+}
+
+.footer-links ul li a {
+    color: #ccc; /* Light grey color for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 0.9em; /* Font size for the links */
+}
+
+.footer-links ul li a:hover {
+    color: #ffa500; /* Orange color on hover */
+}
+
+.footer-bottom {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Margin above the bottom text */
+    border-top: 1px solid #333; /* Border on top */
+    padding-top: 10px; /* Padding at the top */
+    font-size: 0.9em; /* Smaller font size */
+    color: #ccc; /* Light grey color for the bottom text */
+}
+
+
+
+
 @media (max-width: 768px) {
     .hero {
         display: flex;
@@ -379,7 +517,7 @@ body {
         display: grid;
         grid-template-columns: repeat(2 ,1fr);
         flex-direction: column; /* Stack buttons vertically on smaller devices */
-        gap: 15px; /* Space between buttons */
+        gap: 15px; 
         align-items: center; /* Center align buttons */
     }
 
@@ -443,6 +581,17 @@ body {
     .bmi-header p {
         font-size: 1em;
     }
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+}
+.team-header h1 {
+    font-size: 2.5em;
+}
+
+.team-header p {
+    font-size: 1em;
+}
 }
 
 
