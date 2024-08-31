@@ -208,6 +208,153 @@ nav ul li a:hover {
     color: #ccc;
     margin-top: 10px;
 }
+.section-title{
+    display: flex;
+}
+.fitness-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c; /* Dark background color */
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+}
+
+.fitness-section .content {
+    max-width: 50%;
+}
+
+.fitness-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.fitness-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #c0c0c0; /* Light grey text */
+}
+
+.fitness-section .join-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5722; /* Orange button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.fitness-section .join-button:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+.fitness-section .image {
+    max-width: 45%;
+}
+
+.fitness-section .image img {
+    width: 100%;
+    border-radius: 15px;
+}
+body {
+    background-color: #121212; /* Background color for the entire page */
+    color: #fff; /* White text for contrast */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+.bmi-section {
+    padding: 60px 20px;
+    background-color: #1c1c1c; /* Dark background for the section */
+    color: #fff; /* White text color */
+}
+
+.bmi-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bmi-header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bmi-header p {
+    font-size: 1.2em;
+    color: #c0c0c0;
+    margin-bottom: 40px;
+}
+
+.bmi-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bmi-chart, .bmi-calculator {
+    background-color: #2e2e2e; 
+    padding: 30px;
+    border-radius: 15px;
+    width: 45%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bmi-chart table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.bmi-chart th, .bmi-chart td {
+    padding: 15px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+.bmi-calculator h2, .bmi-chart h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.bmi-calculator form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bmi-calculator input, .bmi-calculator select {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #444; /* Dark input background */
+    color: #fff; /* White text color */
+    font-size: 1em;
+}
+
+.calculate-button {
+    padding: 15px;
+    background-color: #ff5722; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculate-button:hover {
+    background-color: #e64a19; /* Button hover color */
+}
+
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -253,7 +400,49 @@ nav ul li a:hover {
     }
 
     .habit-item {
-        max-width: 100%; /* Full width on mobile */
-        margin-bottom: 30px; /* Add spacing between items */
+        max-width: 100%; 
+        margin-bottom: 30px; 
+    }
+    .fitness-section {
+        flex-direction: column; 
+        text-align: center; 
+        padding: 30px; 
+    }
+
+    .fitness-section .content, .fitness-section .image {
+        max-width: 100%; /* Use full width */
+        margin-bottom: 20px; /* Add margin between sections */
+    }
+
+    .fitness-section h1 {
+        font-size: 2.2em; /* Adjust font size */
+    }
+
+    .fitness-section p {
+        font-size: 1em; /* Adjust font size */
+    }
+
+    .fitness-section .join-button {
+        font-size: 1em; 
+        padding: 12px 25px; 
+    }
+    .bmi-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bmi-chart, .bmi-calculator {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .bmi-header h1 {
+        font-size: 2.5em;
+    }
+
+    .bmi-header p {
+        font-size: 1em;
     }
 }
+
+
