@@ -592,6 +592,28 @@ body {
 .team-header p {
     font-size: 1em;
 }
+.footer-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
 }
 
+.footer-links {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.footer-brand, .footer-bottom {
+    text-align: center; /* Center align for smaller screens */
+    margin-bottom: 20px; /* Space at the bottom */
+}
+
+.footer-brand h2 {
+    font-size: 1.8em; 
+}
+
+.footer-brand p {
+    font-size: 0.9em; 
+}
+}
 
