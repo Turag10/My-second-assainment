@@ -26,7 +26,7 @@ nav {
 }
 
 .hamburger-menu {
-    display: none; /* Hide by default */
+    display: none; 
 }
 
 nav ul {
@@ -53,7 +53,7 @@ nav ul li a:hover {
     background-color: #ff5722;
 }
 
-/* Hero Section Styles */
+
 .hero {
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@ nav ul li a:hover {
 /* Button Styles */
 .buttons {
     margin-top: 30px;
-    display: flex; /* Side-by-side buttons on larger screens */
+    display: flex; 
     gap: 10px;
 }
 
@@ -97,7 +97,7 @@ nav ul li a:hover {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    flex: 1; /* Buttons take equal space */
+    flex: 1; 
 }
 
 .btn-primary {
@@ -138,8 +138,8 @@ nav ul li a:hover {
 
 .video-stats {
     position: absolute;
-    top: 10px; /* Distance from the top */
-    right: 10px; /* Distance from the right */
+    top: 10px; 
+    right: 10px; 
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -154,14 +154,14 @@ nav ul li a:hover {
 
 .video-stats .stat-item:first-child {
     position: absolute;
-    top: 10px; /* Distance from the top */
-    right: 5px; /* Distance from the right */
+    top: 10px; 
+    right: 5px; 
 }
 
 .video-stats .stat-item:nth-child(2) {
     position: absolute;
-    bottom: -550px; /* Distance from the bottom */
-    left: -280px; /* Distance from the left */
+    bottom: -550px; 
+    left: -280px; 
 }
 
 /* Habits Section Styles */
@@ -215,7 +215,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1c1c1c; /* Dark background color */
+    background-color: #1c1c1c; 
     padding: 50px;
     border-radius: 20px;
     color: white;
@@ -234,13 +234,13 @@ nav ul li a:hover {
 .fitness-section p {
     font-size: 1.2em;
     margin-bottom: 30px;
-    color: #c0c0c0; /* Light grey text */
+    color: #c0c0c0; 
 }
 
 .fitness-section .join-button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #ff5722; /* Orange button color */
+    background-color: #ff5722; 
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -249,7 +249,7 @@ nav ul li a:hover {
 }
 
 .fitness-section .join-button:hover {
-    background-color: #e64a19; /* Darker orange on hover */
+    background-color: #e64a19; 
 }
 
 .fitness-section .image {
@@ -260,18 +260,12 @@ nav ul li a:hover {
     width: 100%;
     border-radius: 15px;
 }
-body {
-    background-color: #121212; /* Background color for the entire page */
-    color: #fff; /* White text for contrast */
-    font-family: Arial, sans-serif; /* Font style */
-    margin: 0;
-    padding: 0;
-}
+
 
 .bmi-section {
     padding: 60px 20px;
-    background-color: #1c1c1c; /* Dark background for the section */
-    color: #fff; /* White text color */
+    background-color: #1c1c1c;
+    color: #fff; 
 }
 
 .bmi-container {
@@ -334,14 +328,14 @@ body {
     margin-bottom: 20px;
     border-radius: 8px;
     border: none;
-    background-color: #444; /* Dark input background */
-    color: #fff; /* White text color */
+    background-color: #444; 
+    color: #fff; 
     font-size: 1em;
 }
 
 .calculate-button {
     padding: 15px;
-    background-color: #ff5722; /* Button background color */
+    background-color: #ff5722; 
     color: white;
     border: none;
     border-radius: 8px;
@@ -351,20 +345,14 @@ body {
 }
 
 .calculate-button:hover {
-    background-color: #e64a19; /* Button hover color */
+    background-color: #e64a19; 
 }
-body {
-    background-color: #121212; /* Background color for the entire page */
-    color: #fff; /* White text for contrast */
-    font-family: Arial, sans-serif; /* Font style */
-    margin: 0;
-    padding: 0;
-}
+
 
 .team-section {
     padding: 60px 20px;
-    background-color: #1c1c1c; /* Dark background for the section */
-    color: #fff; /* White text color */
+    background-color: #1c1c1c; 
+    color: #fff; 
 }
 
 .team-container {
@@ -388,7 +376,7 @@ body {
 
 
 .team-member {
-    background-color: #2e2e2e; /* Slightly lighter background */
+    background-color: #2e2e2e; 
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -420,77 +408,67 @@ body {
     font-size: 1.1em;
     margin: 0;
 }
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; /* Base font for readability */
-    background-color:#121212; /* Light background color for the page */
-    color: #fff; /* Text color */
-}
 
 .footer {
-    background-color: #1c1c1c; /* Dark background color for the footer */
-    color: #fff; /* White text color */
-    padding: 40px 20px; /* Spacing around the footer */
-    text-align: left; /* Align text to the left */
+    background-color: #1c1c1c; 
+    color: #fff; 
+    padding: 40px 20px; 
+    text-align: left; 
 }
-
 .footer-container {
-    display: flex; /* Flexbox for layout */
-    justify-content: space-between; /* Space between columns */
-    flex-wrap: wrap; /* Wrap the content */
-    gap: 30px; /* Gap between flex items */
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 30px; 
 }
 
 .footer-brand h2 {
-    font-size: 2em; /* Font size for the brand title */
-    color: #ff5722; /* Orange color for the brand title */
-    margin-bottom: 10px; /* Margin below the title */
+    font-size: 2em; 
+    color: #ff5722; 
+    margin-bottom: 10px; 
 }
 
 .footer-brand p {
-    color: #ccc; /* Light grey color for the text */
-    font-size: 0.9em; /* Font size for the description */
-    line-height: 1.6; /* Line height for readability */
+    color: #ccc; 
+    font-size: 0.9em; 
+    line-height: 1.6; 
 }
 
 .footer-links {
-    width: 200px; /* Fixed width for each column */
+    width: 200px; 
 }
 
 .footer-links h3 {
-    font-size: 1.2em; /* Font size for the heading */
-    margin-bottom: 15px; /* Space below the heading */
-    color: #fff; /* White color for the heading */
+    font-size: 1.2em; 
+    margin-bottom: 15px; 
+    color: #fff; 
 }
 
 .footer-links ul {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
+    list-style: none; 
+    padding: 0; 
 }
 
 .footer-links ul li {
-    margin-bottom: 10px; /* Space below each list item */
+    margin-bottom: 10px; 
 }
 
 .footer-links ul li a {
-    color: #ccc; /* Light grey color for the links */
-    text-decoration: none; /* Remove underline */
-    font-size: 0.9em; /* Font size for the links */
+    color: #ccc; 
+    text-decoration: none; 
+    font-size: 0.9em; 
 }
 
 .footer-links ul li a:hover {
-    color: #ffa500; /* Orange color on hover */
-}
+    color: #ffa500; }
 
 .footer-bottom {
-    text-align: center; /* Center the text */
-    margin-top: 20px; /* Margin above the bottom text */
-    border-top: 1px solid #333; /* Border on top */
-    padding-top: 10px; /* Padding at the top */
-    font-size: 0.9em; /* Smaller font size */
-    color: #ccc; /* Light grey color for the bottom text */
-}
+    text-align: center; 
+    margin-top: 20px; 
+    border-top: 1px solid #333; 
+    padding-top: 10px; 
+    font-size: 0.9em; 
+    color: #ccc; }
 
 
 
@@ -516,26 +494,25 @@ body {
     .buttons {
         display: grid;
         grid-template-columns: repeat(2 ,1fr);
-        flex-direction: column; /* Stack buttons vertically on smaller devices */
+        flex-direction: column; 
         gap: 15px; 
-        align-items: center; /* Center align buttons */
+        align-items: center; 
     }
 
     .btn-primary, .btn-secondary {
-        width: 100%; /* Full width buttons on small screens */
+        width: 100%; 
     }
 
     nav ul {
-        display: none; /* Hide navigation links on small screens */
+        display: none; 
     }
 
     .hamburger-menu {
-        display: block; /* Show hamburger menu on mobile */
+        display: block; 
     }
     .habits-content {
         display: grid;
-        grid-template-columns: repeat(1 ,1fr); /* 1 column for mobile devices */
-    }
+        grid-template-columns: repeat(1 ,1fr); }
 
     .habit-item {
         max-width: 100%; 
@@ -548,16 +525,16 @@ body {
     }
 
     .fitness-section .content, .fitness-section .image {
-        max-width: 100%; /* Use full width */
-        margin-bottom: 20px; /* Add margin between sections */
+        max-width: 100%;
+        margin-bottom: 20px; 
     }
 
     .fitness-section h1 {
-        font-size: 2.2em; /* Adjust font size */
+        font-size: 2.2em; 
     }
 
     .fitness-section p {
-        font-size: 1em; /* Adjust font size */
+        font-size: 1em; 
     }
 
     .fitness-section .join-button {
@@ -593,9 +570,9 @@ body {
     font-size: 1em;
 }
 .footer-container {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
 }
 
 .footer-links {
@@ -604,8 +581,8 @@ body {
 }
 
 .footer-brand, .footer-bottom {
-    text-align: center; /* Center align for smaller screens */
-    margin-bottom: 20px; /* Space at the bottom */
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 .footer-brand h2 {
@@ -615,5 +592,5 @@ body {
 .footer-brand p {
     font-size: 0.9em; 
 }
+    }
 }
-
